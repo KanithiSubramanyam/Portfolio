@@ -1,0 +1,21 @@
+.timeline-main {
+  background-color: #9db2bf;
+  /* height: 75vh; */
+  padding-top: 30px;
+}
+.textDiv h3 {
+  margin-left: 40%;
+}
+
+.timeline-dash {
+  z-index: 10;
+}
+
+@media only screen and (max-width: 676px) {
+  .textDiv h3 {
+    font-size: 40px;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,96 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-block-start: auto;
+}
+
+.proMain {
+  /* height: 75vh; */
+  overflow: hidden;
+  background-color: #9db2bf;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.proMain h3 {
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+
+.proDiv {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+  width: 20vw;
+}
+
+.prodisplay {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.prodisplay img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 676px) {
+  .prodisplay {
+    display: flex;
+    width: auto;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 10px;
+  }
+
+  .proMain h3 {
+    font-size: 40px;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .proMain {
+    height: auto;
+  }
+
+  .prodisplay img {
+    align-items: center;
+  }
+
+  .prodisplay .proDiv {
+    justify-content: center;
+    height: auto;
+    width: 30rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .proDiv h4 {
+    font-size: large;
+  }
+
+  .description-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .buttons img {
+    height: 40px;
+    width: 40px;
+  }
+}

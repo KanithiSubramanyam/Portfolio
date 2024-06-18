@@ -1,0 +1,88 @@
+.backendDiv {
+  background-color: aliceblue;
+  height: max-content;
+  width: fit-content;
+  padding: 30px;
+  margin-left: 70px;
+  font-size: large;
+  border-radius: 30px;
+}
+
+.expMain {
+  /* height: 60vh; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+}
+
+.techDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.techText {
+  color: aliceblue;
+  text-align: center;
+}
+
+.techText h3 {
+  color: black;
+}
+
+.mytech-display {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .expMain {
+    /* align-items: flex-start; */
+    height: auto;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+  .techDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+    margin: 0;
+    padding: 0px;
+  }
+
+  .techDiv h4 {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .techText h4 {
+    font-size: 40px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .frontendDiv {
+    width: 170px;
+    padding: 15px;
+  }
+
+  .backendDiv {
+    /* width: 170px; */
+    padding: 15px;
+  }
+}
