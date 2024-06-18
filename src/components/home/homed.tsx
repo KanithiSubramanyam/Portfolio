@@ -11,7 +11,7 @@ const Homed = () => {
   return (
     <main className="aboutdiv" id="home">
       <div className="nameDiv">
-        <h2 data-aos="fade-up">{`Hey, I'm Subramanyam Kanithi`}</h2>
+        <h2 data-aos="fade-up">{`Hey, I'm Subramanyam`}</h2>
         <div>
           <TypeAnimation
             data-aos="fade-up"

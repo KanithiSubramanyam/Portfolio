@@ -2,7 +2,6 @@ import Image from "next/image";
 import "./mytechstack.css";
 import { Stack, Typography } from "@mui/material";
 import react from "@/assets/images/tech-stack/react.svg";
-import next from "@/assets/images/tech-stack/next.svg";
 import Github from "@/assets/images/tech-stack/github.svg";
 import figma from "@/assets/images/tech-stack/figma.svg";
 import git from "@/assets/images/tech-stack/git.svg";
@@ -13,13 +12,15 @@ import vscode from "@/assets/images/tech-stack/vscode.svg";
 import angular from "@/assets/images/tech-stack/angularjs.svg";
 import material from "@/assets/images/material-ui.svg";
 import expo from "@/assets/images/expo.svg";
+import python from "@/assets/images/tech-stack/python.svg";
+
 
 const stack = [
   { image: react, name: "React js" },
-  { image: next, name: "Next js" },
-  { image: react, name: "React Native" },
   { image: expo, name: "Expo" },
   { image: Github, name: "Github" },
+  { image: vscode, name: "VsCode" },
+  { image: python, name: "Python" },
 
   { image: figma, name: "Figma" },
   { image: git, name: "Git" },
